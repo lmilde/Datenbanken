@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@egmontix">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="PRAKTIKANT">
+      <ObjectId>237</ObjectId>
+      <IntrospectionTimestamp>2017-08-28.08:24:18</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="SYSMAN">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="MGMT_VIEW">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="U_TFOLG">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="IWH">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="FRAKOS">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="U_RVP">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="JMICHELS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="ADMINISTRATOR">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="ESLOT">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="ESLOT_USER">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="APEX_040200">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="ORATEXT">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="LIFERAY">
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="U_BEVISLKW">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="DBA_SDM">
+      <ObjectId>136</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="DBA_BEVIS">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="U_SDM">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="U_BEVIS_LIVE">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="U_BCI">
+      <ObjectId>144</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="DBA_BCI">
+      <ObjectId>146</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="DBA_RVP2">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="QC__559535">
+      <ObjectId>151</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="QC__132290">
+      <ObjectId>152</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="QC__910377">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="QC__356170">
+      <ObjectId>154</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="QC__480419">
+      <ObjectId>155</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="QC__407484">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="QC__114408">
+      <ObjectId>157</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="QC__319162">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="QC__336846">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="QC__322296">
+      <ObjectId>160</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="DEFAULT_LAB_PROJECT_DB">
+      <ObjectId>162</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="QC__945495">
+      <ObjectId>163</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="DEFAULT_DEMO_DB">
+      <ObjectId>164</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="QC__89243">
+      <ObjectId>165</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="CAMP">
+      <ObjectId>166</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="CAMP_USER">
+      <ObjectId>167</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="DEFAULT_MANEC_DB">
+      <ObjectId>168</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="DEFAULT_MANEC_RELEASE_XX_TEMPL">
+      <ObjectId>169</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="DEFAULT_MANEC_RELEASE_TEMPLATE">
+      <ObjectId>170</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="DEFAULT_MANEC_DB0">
+      <ObjectId>171</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="QC__410693">
+      <ObjectId>172</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="QC__896246">
+      <ObjectId>173</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="QC__42487">
+      <ObjectId>174</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="QC__964816">
+      <ObjectId>175</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="DEFAULT_TEST_DB">
+      <ObjectId>176</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="QC__67075">
+      <ObjectId>177</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="QC__812118">
+      <ObjectId>178</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="PFASSNACHT">
+      <ObjectId>179</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="AIS">
+      <ObjectId>182</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="AIS_USER">
+      <ObjectId>183</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="MOVIS">
+      <ObjectId>184</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="MOVIS_INT">
+      <ObjectId>185</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="BEOM_USER">
+      <ObjectId>193</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="BEOM">
+      <ObjectId>194</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="DORISSE_OWNER">
+      <ObjectId>195</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="DORISSE_USE">
+      <ObjectId>196</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="DEFAULT_TEST_MANEC_DB">
+      <ObjectId>197</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="HPALM2">
+      <ObjectId>200</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="HPALM">
+      <ObjectId>201</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="ALM_ADMIN">
+      <ObjectId>203</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="HPALM1">
+      <ObjectId>210</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="DEFAULT_LAB_PROJECT_DB0">
+      <ObjectId>211</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="DEFAULT_MANEC_DB1">
+      <ObjectId>213</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="DEFAULT_TEST_DB0">
+      <ObjectId>214</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="DEFAULT_DEMO_DB0">
+      <ObjectId>216</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="DEFAULT_DEMO_DB1">
+      <ObjectId>220</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="DEFAULT_MANEC_TRUCK_DB">
+      <ObjectId>222</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="ANET">
+      <ObjectId>223</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="LOG4PLSQL">
+      <ObjectId>227</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="UNITTEST_REP">
+      <ObjectId>230</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="SBRUCHNO2">
+      <ObjectId>232</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="TZP_HEAD">
+      <ObjectId>233</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="SBRUCHNO1">
+      <ObjectId>234</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="TRIOWH">
+      <ObjectId>236</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="RHEIN">
+      <ObjectId>239</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="DBA_TFOLG_TPL">
+      <ObjectId>240</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="DBA_TFOLG">
+      <ObjectId>242</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="MGIESERT">
+      <ObjectId>243</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="SPOON">
+      <ObjectId>244</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="JWIEHLER">
+      <ObjectId>245</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="SSCHOENKNECHT">
+      <ObjectId>246</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="DBA_RVP3">
+      <ObjectId>247</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="DBA_RVP_CLONE">
+      <ObjectId>249</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="DBA_RVP">
+      <ObjectId>250</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>251</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>252</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="MNP548_1">
+      <ObjectId>1474</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="MNP548">
+      <ObjectId>1475</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="DBA_LIGHT">
+      <ObjectId>2599</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="ARPLIS">
+      <ObjectId>2605</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="SKLEIN">
+      <ObjectId>2606</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="122" parent="2" name="ABTEILUNG">
+      <ObjectId>609972</ObjectId>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="123" parent="2" name="BONUSZAHLUNGEN">
+      <ObjectId>609976</ObjectId>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="124" parent="2" name="LAND">
+      <ObjectId>609968</ObjectId>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="125" parent="2" name="MITARBEITER">
+      <ObjectId>609974</ObjectId>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="126" parent="2" name="STANDORT">
+      <ObjectId>609970</ObjectId>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="127" parent="122" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="122" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="122" name="STANDORT">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="130" parent="122" name="SYS_C00164901">
+      <ObjectId>609973</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="131" parent="122" name="SYS_C00164901">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C00164901</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="132" parent="122" name="SYS_C00164902">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>STANDORT</ColNames>
+      <RefSchemaName>PRAKTIKANT</RefSchemaName>
+      <RefTableName>STANDORT</RefTableName>
+      <RefKeyName>SYS_C00164896</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="133" parent="123" name="DATUM">
+      <Position>1</Position>
+      <DataType>DATE|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="134" parent="123" name="WERT">
+      <Position>2</Position>
+      <DataType>NUMBER(6,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="135" parent="123" name="ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="123" name="MITARBEITER">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="137" parent="123" name="SYS_C00164913">
+      <ObjectId>609977</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="138" parent="123" name="SYS_C00164913">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C00164913</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="139" parent="123" name="SYS_C00164914">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>MITARBEITER</ColNames>
+      <RefSchemaName>PRAKTIKANT</RefSchemaName>
+      <RefTableName>MITARBEITER</RefTableName>
+      <RefKeyName>SYS_C00164907</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="140" parent="124" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="141" parent="124" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="142" parent="124" name="SYS_C00164892">
+      <ObjectId>609969</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="143" parent="124" name="SYS_C00164892">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C00164892</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="144" parent="125" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="125" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="125" name="VORNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="147" parent="125" name="GEHALT">
+      <Position>4</Position>
+      <DataType>NUMBER(6,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="125" name="ABTEILUNG">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="149" parent="125" name="SYS_C00164907">
+      <ObjectId>609975</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="150" parent="125" name="SYS_C00164907">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C00164907</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="151" parent="125" name="SYS_C00164908">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>ABTEILUNG</ColNames>
+      <RefSchemaName>PRAKTIKANT</RefSchemaName>
+      <RefTableName>ABTEILUNG</RefTableName>
+      <RefKeyName>SYS_C00164901</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="152" parent="126" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="126" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="126" name="LAND">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="155" parent="126" name="SYS_C00164896">
+      <ObjectId>609971</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-08-25.14:54:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="156" parent="126" name="SYS_C00164896">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C00164896</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="157" parent="126" name="SYS_C00164897">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-08-25.14:54:10</ModifiedTimestamp>
+      <ColNames>LAND</ColNames>
+      <RefSchemaName>PRAKTIKANT</RefSchemaName>
+      <RefTableName>LAND</RefTableName>
+      <RefKeyName>SYS_C00164892</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>
